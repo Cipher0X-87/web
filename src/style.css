@@ -1,0 +1,49 @@
+body {
+    background-color: azure;
+    color: black;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1#RochelleTop{
+    text-align: left;
+}
+
+div#TopBackground {
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    background: no-repeat;
+
+}
+
+div#AboutPictureFrame {
+    height: 700px;
+    width: 600px;
+    border: 1px solid black;
+    margin: 25px auto;
+}
+
+div#AboutPicture {
+    height: 100%;
+    width: 100%;
+    src: url("./RochelleBlog.jpg"); 
+    alt:"RochelleBlog";
+}
+
+div#TextWrap {
+    height: 300px;
+    width: 90%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 25px auto
+}
